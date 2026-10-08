@@ -4,7 +4,7 @@
 
 const int size = 64;
 std::string Products[size]{};
-int Products_count[size]{};
+int Products_count[size]{};  
 int Products_Price[size]{};
 
 int Pokypka(std::string product, int count, int price) {
@@ -22,7 +22,7 @@ int Pokypka(std::string product, int count, int price) {
 			}
 		}
 		else {
-			return 0;
+			return 0; 
 		}
 
 	}
